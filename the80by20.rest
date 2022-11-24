@@ -1,8 +1,8 @@
 @url = http://localhost:5000 
 #@url = https://the80by20.azurewebsites.net
 
-### 
-GET {{url}}/api
-
-### 
+### gateway
 GET {{url}}
+
+### bootstrapper
+GET {{url}}/api
