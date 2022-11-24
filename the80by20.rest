@@ -1,4 +1,5 @@
 @url = http://localhost:5000 
 #@url = https://the80by20.azurewebsites.net
 
-### GET {{url}}/api
+### 
+GET {{url}}/api

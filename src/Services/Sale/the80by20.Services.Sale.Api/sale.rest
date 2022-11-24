@@ -1,0 +1,11 @@
+@url = http://localhost:5000/sale
+
+@solutionId = 
+
+@accessToken = 
+
+###
+GET {{url}}
+
+
+###

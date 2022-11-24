@@ -2,7 +2,7 @@
 
 namespace the80by20.Services.Sale.Api.Controllers
 {
-    [Route("[controller]")]
+    [Route("")]
     public class HomeController : BaseController
     {
         [HttpGet]
