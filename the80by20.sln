@@ -6,9 +6,6 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "reports", "reports", "{DBC8B925-6625-4ACB-9D4A-3D98999821CB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tools", "tools", "{2304AB52-C945-426E-931F-02DCA0445F18}"
-	ProjectSection(SolutionItems) = preProject
-		tools\cicd.md = tools\cicd.md
-	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "the80by20.Sandbox", "tools\the80by20.Sandbox\the80by20.Sandbox.csproj", "{84672A1C-B2C2-4A33-8619-4C80C98104AA}"
 EndProject
