@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="module.sale.Development.json" />
+    <None Remove="module.sale.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="module.sale.Development.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="module.sale.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\the80by20.Modules.Sale.Infrastructure\the80by20.Modules.Sale.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,40 @@
+@url = http://localhost:5000/master-data
+#@url = https://the80by20.azurewebsites.net/master-data
+
+@categoryId = 62df350e-e13a-4130-b874-bacebf6fcb34
+@accessToken = jwt-token
+
+###
+GET {{url}}
+
+###
+POST {{url}}/categories
+Authorization: Bearer {{accessToken}}
+Content-Type: application/json
+
+{    
+    "name": "test-category-name",
+    "description": "test-description-name"
+}
+
+###
+GET {{url}}/categories
+Authorization: Bearer {{accessToken}}
+
+###
+GET {{url}}/categories/{{categoryId}}
+Authorization: Bearer {{accessToken}}
+
+###
+PUT {{url}}/categories/{{categoryId}}
+Authorization: Bearer {{accessToken}}
+Content-Type: application/json
+
+{
+  "name": "updated-name",
+  "description": "updated-description-name"
+}
+
+###
+DELETE {{url}}/categories/{{categoryId}}
+Authorization: Bearer {{accessToken}}
