@@ -3,3 +3,6 @@
 
 ### 
 GET {{url}}/api
+
+### 
+GET {{url}}
