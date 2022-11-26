@@ -20,7 +20,10 @@ public static class Program
         AddServices(builder);
 
         WebApplication app = builder.Build();
-
+        
+        // INFO
+        // after builder.Build IServiceProvider is available ang can get registered services from it using:
+        // app.Services.GetService()
 
         UseMiddlewares(env, app);
 

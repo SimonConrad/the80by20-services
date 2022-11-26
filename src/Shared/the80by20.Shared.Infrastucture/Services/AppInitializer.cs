@@ -10,6 +10,10 @@ namespace the80by20.Shared.Infrastucture.Services
         private readonly IServiceProvider serviceProvider;
         private readonly ILogger<AppInitializer> logger;
 
+        // INFO
+        // Because AppInitializer is registered as singleton then to get from ioc services which are 
+        // registered as transient or scoped (w cannot inject them to singleton)
+        // so we can use IServiceProvider to create scope and then get service from container
         public AppInitializer(IServiceProvider serviceProvider, ILogger<AppInitializer> logger)
         {
             this.serviceProvider = serviceProvider;
