@@ -7,7 +7,9 @@
     <projectFile profileName="the80by20.Subscriber">src/Services/Reports/the80by20.Subscriber/the80by20.Reports.Subscriber.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21dedfd1-70a3-4f6c-8594-5a8240618655" name="Changes" comment="version project settings files" />
+    <list default="true" id="21dedfd1-70a3-4f6c-8594-5a8240618655" name="Changes" comment="version project settings files">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.the80by20/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.the80by20/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -255,7 +257,7 @@
       <workItem from="1669271239326" duration="847000" />
       <workItem from="1669272131082" duration="2479000" />
       <workItem from="1669275085725" duration="2884000" />
-      <workItem from="1669278970901" duration="5281000" />
+      <workItem from="1669278970901" duration="6252000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1669274001258</created>
@@ -320,7 +322,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669363491143</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="version project settings files">
+      <created>1669393157906</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1669393157906</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
