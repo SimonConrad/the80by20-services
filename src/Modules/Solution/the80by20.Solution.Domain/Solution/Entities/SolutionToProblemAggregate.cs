@@ -57,6 +57,8 @@ namespace the80by20.Modules.Solution.Domain.Solution.Entities
             var solution = new SolutionToProblemAggregate(Guid.NewGuid(), problemId, requiredSolutionTypes);
             solution.ClearEvents();
             solution.Version = 0;
+            
+            solution.AddEvent(new SolutionCreated(solution));
             return solution;
         }
 
